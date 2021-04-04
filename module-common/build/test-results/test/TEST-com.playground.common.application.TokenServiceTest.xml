@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.playground.common.application.TokenServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-04-04T09:46:32" hostname="DESKTOP-SNV356N" time="0.223">
+  <properties/>
+  <testcase name="generateToken()" classname="com.playground.common.application.TokenServiceTest" time="0.199"/>
+  <testcase name="verifyToken()" classname="com.playground.common.application.TokenServiceTest" time="0.021"/>
+  <testcase name="getUid()" classname="com.playground.common.application.TokenServiceTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
