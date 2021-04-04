@@ -44,3 +44,20 @@ subprojects {
         }
     }
 }
+
+project(':adapter-test') {
+    dependencies {
+        implementation project(':module-common')
+    }
+}
+
+project(':module-domain-sandbox') {
+    dependencies {
+    }
+}
+
+project(':module-common') {
+    dependencies {
+    }
+}
+
