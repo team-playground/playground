@@ -17,7 +17,9 @@ public class Milestone {
         this.id = id;
     }
 
-    public void issueTask(String description, Member member) {
+    public Task issueTask(String description, TaskMember member) {
         Task task = new Task(UUID.randomUUID().toString(), description, member);
+        tasks.add(task);
+        return task;
     }
 }

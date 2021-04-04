@@ -11,10 +11,10 @@ public class Task {
     private int progress;
     private TaskMember worker;
 
-    public Task(String id, String description, Member member) {
+    public Task(String id, String description, TaskMember member) {
         this.id = id;
         this.description = description;
-        worker = TaskMember.convertFrom(member);
+        worker = member;
     }
 
     public void updateProgress(int progress) {
