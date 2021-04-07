@@ -1,5 +1,7 @@
 package com.playground.sandbox.domain;
 
+import lombok.AccessLevel;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
@@ -9,12 +11,10 @@ public class TaskMember {
     private String id;
     private String email;
 
-    public TaskMember(String email) {
+    @Builder
+    public TaskMember(String id, String email) {
+        this.id = id;
         this.email = email;
-    }
-
-    public static TaskMember convertFrom(Member member) {
-        return new TaskMember(member.getEmail());
     }
 }
 
