@@ -3,6 +3,6 @@ package com.playground.sandbox.domain;
 import lombok.Data;
 
 @Data
-class Member {
+public class Member {
     private String email;
 }
