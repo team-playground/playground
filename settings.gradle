@@ -5,4 +5,5 @@ include 'adapter-test'
 include 'module-domain-team'
 include 'module-domain-team'
 include 'module-domain-user'
+include 'module-application-user'
 

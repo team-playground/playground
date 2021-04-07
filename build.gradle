@@ -51,6 +51,12 @@ project(':adapter-test') {
     }
 }
 
+project(':module-application-user') {
+    dependencies {
+        implementation project(':module-domain-user')
+    }
+}
+
 project(':module-domain-user') {
     dependencies {
         implementation project(':module-domain-team')
