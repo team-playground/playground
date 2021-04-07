@@ -51,9 +51,15 @@ project(':adapter-test') {
     }
 }
 
+project(':module-domain-user') {
+    dependencies {
+        implementation project(':module-domain-team')
+    }
+}
+
 project(':module-domain-team') {
     dependencies {
-        compile project(':module-domain-sandbox')
+        implementation project(':module-domain-sandbox')
     }
 }
 
