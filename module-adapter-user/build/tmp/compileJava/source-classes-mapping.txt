@@ -1,0 +1,14 @@
+com/playground/user/UserApplication.java
+ com.playground.user.UserApplication
+com/playground/user/adapter/out/db/UserRepository.java
+ com.playground.user.adapter.out.db.UserRepository
+com/playground/user/adapter/out/db/UserEntityAdapter.java
+ com.playground.user.adapter.out.db.UserEntityAdapter
+com/playground/user/adapter/out/db/UserEntity.java
+ com.playground.user.adapter.out.db.UserEntity
+ com.playground.user.adapter.out.db.UserEntity$Role
+ com.playground.user.adapter.out.db.UserEntity$UserEntityBuilder
+com/playground/user/adapter/out/db/UserMapper.java
+ com.playground.user.adapter.out.db.UserMapper
+com/playground/user/adapter/in/api/UserApi.java
+ com.playground.user.adapter.in.api.UserApi

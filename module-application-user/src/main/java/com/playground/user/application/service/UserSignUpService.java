@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 
 @RequiredArgsConstructor
 @Service
-public class UserSignUpService implements UserSignUpUseCase {
+class UserSignUpService implements UserSignUpUseCase {
     private final UserSignUpPort userSignUpPort;
     private final UserFindPort userFindPort;
 

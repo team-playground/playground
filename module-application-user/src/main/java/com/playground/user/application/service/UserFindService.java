@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 
 @RequiredArgsConstructor
 @Service
-public class UserFindService implements UserFindUseCase {
+class UserFindService implements UserFindUseCase {
     private final UserFindPort userFindPort;
 
     @Override

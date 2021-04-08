@@ -57,6 +57,12 @@ project(':module-adapter-gateway') {
     }
 }
 
+project(':module-adapter-user') {
+    dependencies {
+        implementation project(':module-application-user')
+    }
+}
+
 project(':module-application-user') {
     dependencies {
         implementation project(':module-domain-user')
