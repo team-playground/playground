@@ -1,0 +1,3 @@
+com/playground/user/domain/User.java
+ com.playground.user.domain.User
+ com.playground.user.domain.User$UserBuilder
