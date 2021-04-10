@@ -1,10 +1,6 @@
 rootProject.name = 'app'
-include 'adapter-test'
 include 'module-common'
-include 'module-domain-sandbox'
-include 'module-domain-team'
-include 'module-domain-user'
+include 'module-domain-sandbox', 'module-domain-team', 'module-domain-user'
 include 'module-application-user'
-include 'module-adapter-gateway'
-include 'module-adapter-user'
+include 'module-adapter-user', 'module-adapter-gateway'
 

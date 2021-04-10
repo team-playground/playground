@@ -1,0 +1,15 @@
+spring:
+  response:
+    exceptions:
+      expireToken:
+        code: 400
+        msg: 'Auth 토큰 만료'
+        type: com.playground.gateway.exception.ExpireTokenException
+      expireRefreshToken:
+        code: 401
+        msg: 'Refresh 토큰 만료'
+        type: com.playground.gateway.exception.ExpireRefreshTokenException
+      notValidUser:
+        code: 402
+        msg: '유효하지 않은 유저/세션 만료'
+        type: com.playground.gateway.exception.NotValidUserException

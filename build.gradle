@@ -45,20 +45,16 @@ subprojects {
     }
 }
 
-project(':adapter-test') {
-    dependencies {
-        implementation project(':module-common')
-    }
-}
-
 project(':module-adapter-gateway') {
     dependencies {
-
+        implementation 'com.github.zkdlu:api-response-spring-boot-starter:1.0.1'
+        implementation project(':module-common')
     }
 }
 
 project(':module-adapter-user') {
     dependencies {
+        implementation 'com.github.zkdlu:api-response-spring-boot-starter:1.0.1'
         implementation project(':module-application-user')
     }
 }

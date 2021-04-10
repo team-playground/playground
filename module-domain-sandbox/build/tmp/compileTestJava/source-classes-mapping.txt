@@ -1,4 +1,4 @@
-com/playground/sandbox/domain/MilestoneTest.java
- com.playground.sandbox.domain.MilestoneTest
 com/playground/sandbox/domain/TaskTest.java
  com.playground.sandbox.domain.TaskTest
+com/playground/sandbox/domain/MilestoneTest.java
+ com.playground.sandbox.domain.MilestoneTest
