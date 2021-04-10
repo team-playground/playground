@@ -1,5 +1,5 @@
-com/playground/user/UserApplication.java
- com.playground.user.UserApplication
+com/playground/user/exception/UserNotFoundException.java
+ com.playground.user.exception.UserNotFoundException
 com/playground/user/adapter/out/db/UserRepository.java
  com.playground.user.adapter.out.db.UserRepository
 com/playground/user/adapter/out/db/UserEntityAdapter.java
@@ -12,3 +12,5 @@ com/playground/user/adapter/out/db/UserMapper.java
  com.playground.user.adapter.out.db.UserMapper
 com/playground/user/adapter/in/api/UserApi.java
  com.playground.user.adapter.in.api.UserApi
+com/playground/user/UserApplication.java
+ com.playground.user.UserApplication

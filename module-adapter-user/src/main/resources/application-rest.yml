@@ -1,0 +1,7 @@
+spring:
+  response:
+    exceptions:
+      userNotFound:
+        msg: 'NOT'
+        code: 200
+        type: com.playground.user.exception.UserNotFoundException

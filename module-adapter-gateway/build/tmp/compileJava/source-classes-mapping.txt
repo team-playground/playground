@@ -34,3 +34,5 @@ com/playground/gateway/application/port/CustomOAuth2UseCase.java
  com.playground.gateway.application.port.CustomOAuth2UseCase
 com/playground/gateway/GatewayApplication.java
  com.playground.gateway.GatewayApplication
+com/playground/gateway/adapter/api/TokenController.java
+ com.playground.gateway.adapter.api.TokenController

@@ -1,4 +1,0 @@
-com/playground/TestApplication.java
- com.playground.TestApplication
-com/playground/adapter/TestController.java
- com.playground.adapter.TestController

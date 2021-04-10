@@ -1,4 +1,9 @@
+server:
+  port: 9000
+
 spring:
+  profiles:
+    include: rest
   datasource:
     url: jdbc:mariadb://localhost:3306/user_db
     driver-class-name: org.mariadb.jdbc.Driver
