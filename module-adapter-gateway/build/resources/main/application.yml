@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    include: oauth,rest
+
+server:
+  port: 8080
+
+zuul:
+  routes:
+    test:
+      path: /test/**
+      url: http://localhost:8001
+
+playground:
+  user: http://localhost:9000/users/
