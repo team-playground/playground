@@ -19,15 +19,19 @@ public class Task {
 
     public void updateProgress(int progress) {
         this.progress = progress;
-        verifyTask();
+        clampTask();
     }
 
-    private void verifyTask() {
+    private void clampTask() {
         if (progress < 0) {
             progress = 0;
         } else if (progress > 100) {
             progress = 100;
         }
+    }
+
+    public boolean isCompleted() {
+        return progress == 100;
     }
 }
 

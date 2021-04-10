@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.playground.sandbox.domain.MilestoneTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-10T13:04:57" hostname="DESKTOP-SNV356N" time="0.051">
+  <properties/>
+  <testcase name="마일스톤에 새로운 작업을 발행한다." classname="com.playground.sandbox.domain.MilestoneTest" time="0.051"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

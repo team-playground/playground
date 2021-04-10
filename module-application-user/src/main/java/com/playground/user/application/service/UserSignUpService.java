@@ -15,10 +15,8 @@ class UserSignUpService implements UserSignUpUseCase {
 
     @Override
     public UserDto signUp(UserDto userDto) {
-        if (!userFindPort.existsUser(userDto)) {
-            userSignUpPort.signUp(userDto);
-        }
-
-        return userDto;
+        return userFindPort.existsUser(userDto)
+                ? userDto
+                : userSignUpPort.signUp(userDto);
     }
 }
