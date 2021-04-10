@@ -33,6 +33,10 @@ public class Team {
         members.add(teamMember);
     }
 
+    public String invite() {
+        return id;
+    }
+
     public void makeGroup(Group group) {
         groups.add(group);
     }
@@ -41,7 +45,7 @@ public class Team {
         isPublic = true;
     }
 
-    public void hide() {
+    public void invisible() {
         isPublic = false;
     }
 }
